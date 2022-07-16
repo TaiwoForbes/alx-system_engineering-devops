@@ -1,7 +1,7 @@
 ## Table Of Contents
 
-* [General Info] (# General Info)
-* [Tasks] (# Tasks)
+* [General Info] (#General Info)
+* [Tasks] (#Tasks)
 
 # General Info
 
@@ -25,4 +25,22 @@ CMD CHALLENGE is a pretty cool game challenging you on Bash skills. Everything i
 * Task 8: Copy the file named take-the-command-challenge to the directory tmp/files 
 
 * Task 9: move the file named take-the-command-challenge to the directory tmp/files
+
+* Task 10: Create a symobolic link
+
+* Task 11: Delete all files in the directory
+
+* Task 12: Remove all files with .doc extension
+
+* Task 13: There is a file named access.log in the current working directory. Print all lines in this file that contains the string "GET".
+
+* Task 14: Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".
+
+* Task 15: Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+
+* Task 16: Print all matching line that contains the sring "500". You need to search recursively since the file name isnt provided.
+
+* Task 17: Extract all IP addresses from files that start with "access.log" printing one IP address per line.
+
+* Task 18: Count the number of files in the current working directory. Print the number of files as a single integer.
 
