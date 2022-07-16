@@ -1,7 +1,7 @@
 ## Table Of Contents
 
-* [General Info] (#general-ingo)
-* [Tasks] (#tasks)
+* [General Info] (# General Info)
+* [Tasks] (# Tasks)
 
 # General Info
 
