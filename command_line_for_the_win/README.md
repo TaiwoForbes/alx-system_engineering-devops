@@ -1,7 +1,7 @@
 ## Table Of Contents
 
-* [General Info] (#General Info)
-* [Tasks] (#Tasks)
+* [General Info](#General Info)
+* [Tasks](#Tasks)
 
 # General Info
 
@@ -44,3 +44,24 @@ CMD CHALLENGE is a pretty cool game challenging you on Bash skills. Everything i
 
 * Task 18: Count the number of files in the current working directory. Print the number of files as a single integer.
 
+* Task 19: Print the contents of access.log sorted.
+
+* Task 20: Print the number of lines in access.log that contain the string "GET".
+
+* Task 21: The file split-me.txt contains a list of numbers separated by a ; character.
+
+Split the numbers on the ; character, one number per line.
+
+* Task 22: Print the numbers 1 to 100 separated by spaces.
+
+* Task 23: This challenge has text files (with a .txt extension) that contain the phrase "challenges are difficult". Delete this phrase from all text files recursively.
+
+Note that some files are in subdirectories so you will need to search for them.
+
+* Task 24: The file sum-me.txt has a list of numbers, one per line. Print the sum of these numbers.
+
+* Task 25: Print all files in the current directory recursively without the leading directory path.
+
+* Task 26: Rename all files removing the extension from them in the current directory recursively.
+
+* Task 27: The files in this challenge contain spaces. List all of the files (filenames only) in the current directory but replace all spaces with a '.' character.
