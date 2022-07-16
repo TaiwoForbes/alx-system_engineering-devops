@@ -1,6 +1,6 @@
 ## Table Of Contents
 
-* [General Info](#General Info)
+* [General Info](#General-Info)
 * [Tasks](#Tasks)
 
 # General Info
