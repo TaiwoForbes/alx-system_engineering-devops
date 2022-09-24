@@ -1,5 +1,10 @@
 # Attack is the best defense
 
+## CONCEPTS
+
+* [Network basics](https://alx-intranet.hbtn.io/concepts/33)
+* [Docker](https://alx-intranet.hbtn.io/concepts/65)
+
 ## Resource
 
 - [Network sniffing](https://www.lifewire.com/definition-of-sniffer-817996)
