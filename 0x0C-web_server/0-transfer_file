@@ -1,4 +1,5 @@
-nsfer a file from client to server
+#!/usr/bin/env bash
+#transfer a file from client to server
 if [ $# -eq 4 ]
 then
   scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3@$2":~
