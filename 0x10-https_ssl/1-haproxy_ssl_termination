@@ -46,7 +46,7 @@ frontend http
         stats uri /haproxy?stats
 
 frontend https
-        bind :443 ssl crt /etc/haproxy/certs/www.realalxdev.tech.pem
+        bind :443 ssl crt /etc/ssl/www.taiwoforbes.tech.pem
         reqadd X-Forwarded-Proto:\ https
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/
         use_backend letsencrypt-backend if letsencrypt-acl
