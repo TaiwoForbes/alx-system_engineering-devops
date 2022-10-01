@@ -39,26 +39,13 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend http
-        bind :80
-        reqadd X-Forwarded-Proto:\ http
-        default_backend www-backend
-        stats enable
-        stats uri /haproxy?stats
+        bind *:80
+        bind *:443 ssl crt /etc/ssl/www.taiwoforbes.tech.pem
+        http-request redirect scheme https code 301 unless { ssl_fc }
+        mode http
+        default_backend web-backend
 
-frontend https
-        bind :443 ssl crt /etc/haproxy/certs/www.realalxdev.tech.pem
-        reqadd X-Forwarded-Proto:\ https
-        acl letsencrypt-acl path_beg /.well-known/acme-challenge/
-        use_backend letsencrypt-backend if letsencrypt-acl
-        default_backend www-backend
-        stats enable
-        stats uri /haproxy?stats
-
-backend www-backend
-        redirect scheme https if !{ ssl_fc }
+backend web-backend
         balance roundrobin
         server 19681-web-01 3.238.247.205:80 check
         server 19681-web-02 3.236.142.255:80 check
-
-backend letsencrypt-backend
-        server letsencrypt 127.0.0.1:54321
